@@ -12,9 +12,20 @@
         android:text="test1"
         android:onClick="test1"
         />
-    <TextView
-        android:id="@+id/msg"
+    <ImageView
+        android:id="@+id/img"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/mmsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!" />
+    </ScrollView>
+
 </LinearLayout>
